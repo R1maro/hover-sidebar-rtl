@@ -1,0 +1,33 @@
+.collection-box{
+  display: inline-block;
+  transition: 666ms;
+  &:hover{
+    .side-hover{
+      transform: translateX(100px);
+      margin-right: 120px;
+    }
+  }
+}
+
+
+
+.side-hover{
+  margin-right: -200px;
+  transition: 666ms;
+  ul{
+    width: 180px;
+    background: rgba(255,44,44,0.02);
+  }
+  li{
+    width: 180px;
+    height: 28px;
+    list-style: none;
+    a{
+      text-decoration: none;
+      color: dimgray;
+    }
+  }
+  &:hover{
+
+  }
+}

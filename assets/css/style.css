@@ -1,0 +1,28 @@
+.collection-box {
+  display: inline-block;
+  transition: 666ms;
+}
+.collection-box:hover .side-hover {
+  transform: translateX(100px);
+  margin-right: 120px;
+}
+
+.side-hover {
+  margin-right: -200px;
+  transition: 666ms;
+}
+.side-hover ul {
+  width: 180px;
+  background: rgba(255, 44, 44, 0.02);
+}
+.side-hover li {
+  width: 180px;
+  height: 28px;
+  list-style: none;
+}
+.side-hover li a {
+  text-decoration: none;
+  color: dimgray;
+}
+
+/*# sourceMappingURL=style.css.map */

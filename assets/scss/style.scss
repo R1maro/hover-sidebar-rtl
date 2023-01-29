@@ -2,6 +2,9 @@
   display: inline-block;
   transition: 666ms;
   &:hover{
+    ul{
+      border-top: 1px solid darkgray;
+    }
     .side-hover{
       transform: translateX(100px);
       margin-right: 120px;
@@ -16,11 +19,12 @@
   transition: 666ms;
   ul{
     width: 180px;
-    background: rgba(255,44,44,0.02);
+    display: block;
   }
   li{
-    width: 180px;
+    width: 200px;
     height: 28px;
+    margin: 5px 5px;
     list-style: none;
     a{
       text-decoration: none;
@@ -28,6 +32,8 @@
     }
   }
   &:hover{
-
+    a{
+      background: rgba(255,44,44,0.02);
+    }
   }
 }

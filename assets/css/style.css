@@ -2,6 +2,9 @@
   display: inline-block;
   transition: 666ms;
 }
+.collection-box:hover ul {
+  border-top: 1px solid darkgray;
+}
 .collection-box:hover .side-hover {
   transform: translateX(100px);
   margin-right: 120px;
@@ -13,16 +16,20 @@
 }
 .side-hover ul {
   width: 180px;
-  background: rgba(255, 44, 44, 0.02);
+  display: block;
 }
 .side-hover li {
-  width: 180px;
+  width: 200px;
   height: 28px;
+  margin: 5px 5px;
   list-style: none;
 }
 .side-hover li a {
   text-decoration: none;
   color: dimgray;
+}
+.side-hover:hover a {
+  background: rgba(255, 44, 44, 0.02);
 }
 
 /*# sourceMappingURL=style.css.map */
